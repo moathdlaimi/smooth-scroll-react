@@ -1,0 +1,62 @@
+
+* {
+    text-align: center;
+    margin: 0;   
+}
+
+.active {
+    border-bottom: 2px solid black;
+}
+
+/* NAVBAR STYLING */
+.Nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links {
+    text-decoration: none;
+    color:black ;
+    transition: .3s;
+}
+.links:hover {
+    color: gray ;
+    transition: .3s;
+}
+
+
+/* HOME STYLING  */
+.Home {
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+/* ABOUT STYLING  */
+.About {
+    width: 100%;
+    height: 100vh;
+    background-color: steelblue;
+}
+
+
+/* PROJECTS STYLING  */
+
+.Projects {
+    width: 100%;
+    height: 100vh;
+    background-color: lightslategray;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+}
+
+.top-btn {
+    bottom: 0;
+    width: 10%;
+    margin: 0 auto;
+}
