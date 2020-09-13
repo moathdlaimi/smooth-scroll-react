@@ -4,5 +4,5 @@
 ## Run
 
 - $ git clone "URL" 
-- $ npm i 
+- $ npm install
 
