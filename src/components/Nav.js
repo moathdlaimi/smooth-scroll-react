@@ -33,6 +33,15 @@ const Nav = () => {
                 smooth={true}
                 offset={-35}
                 duration= {800}> PROJECTS </Link>
+
+                <Link
+                className="links"
+                activeClass="active"
+                to="Contact"
+                spy={true}
+                smooth={true}
+                offset={-35}
+                duration= {800}> CONTACT </Link>
     
         </div>
     );

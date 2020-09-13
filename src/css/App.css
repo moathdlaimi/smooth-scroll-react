@@ -23,7 +23,7 @@
     transition: .3s;
 }
 .links:hover {
-    color: gray ;
+    color: tan;
     transition: .3s;
 }
 
@@ -40,7 +40,7 @@
 .About {
     width: 100%;
     height: 100vh;
-    background-color: steelblue;
+    background-color: turquoise;
 }
 
 
@@ -55,8 +55,20 @@
     justify-content: flex-end;
 }
 
+/* CONTACT STYLING  */
+
+.Contact {
+    width: 100%;
+    height: 100vh;
+    background-color: tomato;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+}
+
 .top-btn {
-    bottom: 0;
-    width: 10%;
+    border: 0;
+    width: 50px;
     margin: 0 auto;
+    border-radius: 50%;
 }
